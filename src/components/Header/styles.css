@@ -1,0 +1,18 @@
+header{
+    background-color: #2D333B;
+}
+
+h1{
+    color: #FFF;
+    font-family: cursive;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    padding: 0.83rem 0;
+}
+
+h1:hover{
+    color: #8a99ab;
+}
