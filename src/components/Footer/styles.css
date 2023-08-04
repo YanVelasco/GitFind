@@ -1,9 +1,12 @@
-header{
+footer{
     background-color: #2D333B;
     
 }
-
-header h1:hover{
+span{
+    color: #fff;
+}
+span:hover{
     color: #8a99ab;
     cursor: pointer;
+    text-decoration: underline;
 }

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Header } from '../../components/Header';
+import { Footer } from '../../components/Footer';
 import backgroundImage from '../../assets/img/background.png';
 import List from '../../components/List';
 import './styles.css';
@@ -76,6 +77,7 @@ function App() {
           )}
         </section>
       </main>
+      <Footer/>
     </div>
   );
 }
