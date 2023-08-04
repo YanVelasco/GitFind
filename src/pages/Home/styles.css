@@ -26,6 +26,7 @@
     border: 2px solid #2D333B;
     padding: 10px;
     margin: 1rem;
+    color: #fff;
 }
 
 .user:hover{
@@ -50,11 +51,12 @@
 }
 
 .profile{
+    
     margin-top: 1.5rem;
     display: flex;
     column-gap: 1.5rem;
+    row-gap: 1.5rem;
     width: 38.75rem;
-    border: 1px solid #E5E5E5;
     margin-bottom: 1.35rem;
 }
 
@@ -71,6 +73,20 @@
     justify-content: space-evenly;
     row-gap: .5rem;
     margin: .2rem;
+}
+
+.profile-datas h3{
+    font-size: 3rem;
+    padding: .5rem;
+}
+
+.profile-datas span{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.profile-datas p{
+    font-size: 1rem;
 }
 
 .repositories{
