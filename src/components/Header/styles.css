@@ -1,16 +1,6 @@
 header{
     background-color: #2D333B;
-}
-
-h1{
-    color: #FFF;
-    font-family: cursive;
-    font-size: 3.5rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-align: center;
-    padding: 1rem 0;
+    width: 100%;
 }
 
 h1:hover{
