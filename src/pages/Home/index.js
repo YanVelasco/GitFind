@@ -1,5 +1,6 @@
 import { Header } from "../../components/Header";
 import backgroundImage from "../../assets/img/background.png";
+import List from "../../components/List"
 
 import "./styles.css";
 function App() {
@@ -13,9 +14,9 @@ function App() {
           className="background-image"
         />
         <section className="Informations">
-          <article>
-            <input name="user" placeholder="@user" className="user" />
-            <button className="search"><p>search</p></button>
+          <article className="search-user">
+            <input name="user" placeholder="@user" className="user" required/>
+            <button name="user" className="search"><p>search</p></button>
           </article>
           <article className="profile">
             <img src={backgroundImage} name="profile" alt="Profile img" className="profile-img"/>
@@ -28,6 +29,12 @@ function App() {
             </div>
           </article>
           <hr></hr>
+          <article className="repositories">
+            <h2>Repositories</h2>
+            <List title='teste' description='teste descrição'/>
+            <List title='teste' description='teste descrição'/>
+            <List title='teste' description='teste descrição'/>
+          </article>
         </section>
       </main>
     </div>

@@ -8,7 +8,8 @@
 }
 
 .Informations{
-    width: 57%;
+    align-items: center;
+    width: 100%;
     margin-right: 3.6rem;
     color: #fff;
     display: flex;
@@ -70,4 +71,60 @@
     justify-content: space-evenly;
     row-gap: .5rem;
     margin: .2rem;
+}
+
+.repositories{
+    width: 38.75rem;
+    padding: 1.5rem 0 0 0;
+}
+
+.repositories h2{
+    margin-bottom:  2rem;
+}
+
+@media screen and (max-width:1063px) {
+    .content{
+        flex-direction: column-reverse;
+    }
+
+    .content img{
+        max-width: 400px;
+    }
+
+    .Informations{
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:672px) {
+    .search-user{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .profile{
+        max-width: 18rem;
+        margin: 0 auto;
+    }
+
+    hr{
+        max-width: 18rem;
+        margin: 0 auto;
+    }
+
+    .repositories{
+        max-width: 18rem;
+        margin: 0 auto;
+    }
+
+    .user{
+        max-width: 18rem;
+    }
+
+    .search-user{
+        margin: 0 auto;
+        padding: 2.5rem 0;
+    }
 }
